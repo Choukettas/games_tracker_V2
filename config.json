@@ -1,0 +1,72 @@
+{
+  "interval": 300,
+  "ping": "<@&1463454577302175878>",
+  "api_url": "https://www.gamerpower.com/api/giveaways",
+
+  "platforms": [
+    {
+      "name": "steam_game",
+      "params": { "platform": "steam", "type": "game" },
+      "category": "game",
+      "storage": "./data/steam_game.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/hjrPkWbj/S2Qw-Qtm.png"
+    },
+    {
+      "name": "epic_game",
+      "params": { "platform": "epic-games-store", "type": "game" },
+      "category": "game",
+      "storage": "./data/epicgame_game.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/k4cX03F5/6Zjdyt-V.png"
+    },
+    {
+      "name": "steam_dlc",
+      "params": { "platform": "steam", "type": "loot" },
+      "category": "dlc",
+      "storage": "./data/steam_DLC.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/hjrPkWbj/S2Qw-Qtm.png"
+    },
+    {
+      "name": "epic_dlc",
+      "params": { "platform": "epic-games-store", "type": "loot" },
+      "category": "dlc",
+      "storage": "./data/epicgame_DLC.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/k4cX03F5/6Zjdyt-V.png"
+    },
+    {
+      "name": "gog_game",
+      "params": { "platform": "gog", "type": "game" },
+      "category": "game",
+      "storage": "./data/gog_game.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/3xff3YT7/png-transparent-computer-icons-gog-com-font-gog-text-rectangle-logo.png"
+    },
+    {
+      "name": "playstation",
+      "params": { "platform": "ps5" },
+      "category": "game",
+      "storage": "./data/playstation.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/dtx7Pfmh/logotype-playstation.png"
+    },
+    {
+      "name": "xbox",
+      "params": { "platform": "xbox-series-xs" },
+      "category": "game",
+      "storage": "./data/xbox.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/9Fn45kt4/logo-xbox.png"
+    },
+    {
+      "name": "switch",
+      "params": { "platform": "switch" },
+      "category": "game",
+      "storage": "./data/switch.json",
+      "webhook": "Your_TOken",
+      "icon": "https://i.postimg.cc/15jghdc4/nintendo-switch.png"
+    }
+  ]
+}
